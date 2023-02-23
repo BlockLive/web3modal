@@ -4,11 +4,11 @@
 
 .w3m-overlay {
   inset: 0px;
-  position: fixed;
+  position: relative;
+  top: 50px;
   z-index: var(--w3m-modal-z-index);
   overflow: hidden;
-  display: relative;
-  top: 50px;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);

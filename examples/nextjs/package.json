@@ -1,14 +1,14 @@
 {
   "name": "nextjs-example",
-  "version": "2.1.3-alpha.0",
+  "version": "2.1.3-alpha.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export"
   },
   "dependencies": {
-    "@spatializes/ethereum": "2.1.1",
-    "@spatializes/react": "2.1.1",
+    "@spatializes/ethereum": "2.1.3-alpha.1",
+    "@spatializes/react": "2.1.3-alpha.1",
     "ethers": "5.7.2",
     "next": "13.1.6",
     "react": "18.2.0",

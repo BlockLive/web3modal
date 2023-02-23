@@ -1,5 +1,5 @@
 {
-  "name": "@web3modal/core",
+  "name": "@spatializes/core",
   "version": "2.1.1",
   "main": "dist/index.js",
   "type": "module",

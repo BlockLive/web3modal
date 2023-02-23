@@ -1,4 +1,4 @@
-import { ConfigCtrl } from '@web3modal/core'
+import { ConfigCtrl } from '@spatializes/core'
 import { useEffect, useState } from 'react'
 
 export function useWeb3ModalTheme() {

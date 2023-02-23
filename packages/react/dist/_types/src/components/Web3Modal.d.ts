@@ -1,5 +1,5 @@
-import type { ConfigCtrlState } from '@web3modal/core';
-import type { EthereumClient } from '@web3modal/ethereum';
+import type { ConfigCtrlState } from '@spatializes/core';
+import type { EthereumClient } from '@spatializes/ethereum';
 import React from 'react';
 /**
  * Props

@@ -1,5 +1,5 @@
+import { Web3Modal } from '@spatializes/standalone'
 import SignClient from '@walletconnect/sign-client'
-import { Web3Modal } from '@web3modal/standalone'
 import { useEffect, useState } from 'react'
 
 // 1. Get projectID at https://cloud.walletconnect.com

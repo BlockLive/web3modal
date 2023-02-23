@@ -1,6 +1,6 @@
-import type { ConfigCtrlState } from '@web3modal/core'
-import { ClientCtrl, ConfigCtrl, OptionsCtrl } from '@web3modal/core'
-import type { EthereumClient } from '@web3modal/ethereum'
+import type { ConfigCtrlState } from '@spatializes/core'
+import { ClientCtrl, ConfigCtrl, OptionsCtrl } from '@spatializes/core'
+import type { EthereumClient } from '@spatializes/ethereum'
 import React, { memo, useCallback, useEffect } from 'react'
 import { Modal } from './Modal'
 
@@ -24,7 +24,7 @@ function CreateWeb3Modal({ ethereumClient, ...config }: Props) {
       ClientCtrl.setEthereumClient(ethereumClient)
     }
     ConfigCtrl.setConfig({ ...config, walletConnectVersion: ethereumClient?.walletConnectVersion })
-    await import('@web3modal/ui')
+    await import('@spatializes/ui')
     OptionsCtrl.setIsUiLoaded(true)
   }, [ethereumClient, config])
 

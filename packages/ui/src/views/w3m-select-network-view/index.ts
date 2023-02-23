@@ -1,5 +1,5 @@
-import type { SwitchNetworkData } from '@web3modal/core'
-import { ClientCtrl, OptionsCtrl, RouterCtrl } from '@web3modal/core'
+import type { SwitchNetworkData } from '@spatializes/core'
+import { ClientCtrl, OptionsCtrl, RouterCtrl } from '@spatializes/core'
 import { html, LitElement } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { ThemeUtil } from '../../utils/ThemeUtil'

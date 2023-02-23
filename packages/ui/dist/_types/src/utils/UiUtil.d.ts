@@ -6,10 +6,10 @@ export declare const UiUtil: {
     rejectStandaloneButtonComponent(): void;
     getShadowRootElement(root: LitElement, selector: string): HTMLElement;
     getWalletId(id: string): string;
-    getWalletIcon(id: string): string;
+    getWalletIcon(id: string): any;
     getWalletName(name: string, short?: boolean): string;
-    getChainIcon(chainId: number | string): string;
-    getTokenIcon(symbol: string): string;
+    getChainIcon(chainId: number | string): any;
+    getTokenIcon(symbol: string): any;
     isMobileAnimation(): boolean;
     preloadImage(src: string): Promise<unknown>;
     getErrorMessage(err: unknown): string;
@@ -18,9 +18,9 @@ export declare const UiUtil: {
     handleAndroidLinking(): Promise<void>;
     handleUriCopy(): Promise<void>;
     handleConnectorConnection(id: string, onError?: () => void): Promise<void>;
-    getCustomWallets(): import("@web3modal/core").MobileWallet[];
-    getCustomImageUrls(): string[];
-    getConnectorImageUrls(): string[];
+    getCustomWallets(): any;
+    getCustomImageUrls(): unknown[];
+    getConnectorImageUrls(): any;
     truncate(value: string, strLen?: number): string;
     generateAvatarColors(address: string): void;
     setRecentWallet(wallet: RecentWallet): void;

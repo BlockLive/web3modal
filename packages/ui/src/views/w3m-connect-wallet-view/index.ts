@@ -1,4 +1,4 @@
-import { CoreUtil } from '@web3modal/core'
+import { CoreUtil } from '@spatializes/core'
 import { html, LitElement } from 'lit'
 import { customElement } from 'lit/decorators.js'
 import { ThemeUtil } from '../../utils/ThemeUtil'

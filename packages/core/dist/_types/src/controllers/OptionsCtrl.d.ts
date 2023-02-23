@@ -5,7 +5,7 @@ export declare const OptionsCtrl: {
     setChains(chains?: OptionsCtrlState['chains']): void;
     setStandaloneChains(standaloneChains: OptionsCtrlState['standaloneChains']): void;
     setStandaloneUri(standaloneUri: OptionsCtrlState['standaloneUri']): void;
-    getSelectedChain(): import("@wagmi/chains").Chain | undefined;
+    getSelectedChain(): any;
     setSelectedChain(selectedChain: OptionsCtrlState['selectedChain']): void;
     setIsStandalone(isStandalone: OptionsCtrlState['isStandalone']): void;
     setIsCustomDesktop(isCustomDesktop: OptionsCtrlState['isCustomDesktop']): void;

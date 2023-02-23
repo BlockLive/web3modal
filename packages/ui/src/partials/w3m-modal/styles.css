@@ -7,7 +7,8 @@
   position: fixed;
   z-index: var(--w3m-modal-z-index);
   overflow: hidden;
-  display: flex;
+  display: relative;
+  top: 50px;
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.3);
@@ -16,7 +17,7 @@
 }
 
 .w3m-open {
-  pointer-events: auto;
+  pointer-events: none;
 }
 
 .w3m-container {

@@ -16,8 +16,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@web3modal/core": "2.1.1",
-    "@web3modal/ui": "2.1.1"
+    "@spatializes/core": "2.1.1",
+    "@spatializes/ui": "2.1.1"
   },
   "keywords": [
     "web3",

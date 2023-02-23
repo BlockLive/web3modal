@@ -1,3 +1,3 @@
 import createConfig from '../../rollup.config.js'
 
-export default createConfig('@web3modal/standalone')
+export default createConfig('@spatializes/standalone')

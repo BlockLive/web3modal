@@ -3,10 +3,10 @@
 // Only required within the scope of this monorepo
 const nextConfig = {
   transpilePackages: [
-    '@web3modal/ethereum',
-    '@web3modal/react',
-    '@web3modal/ui',
-    '@web3modal/core'
+    '@spatializes/ethereum',
+    '@spatializes/react',
+    '@spatializes/ui',
+    '@spatializes/core'
   ],
   typescript: {
     ignoreBuildErrors: true

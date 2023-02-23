@@ -1,6 +1,6 @@
 import { Button, Card, Divider, Modal, Spinner, Text } from '@nextui-org/react'
+import { Web3Modal } from '@spatializes/standalone'
 import SignClient from '@walletconnect/sign-client'
-import { Web3Modal } from '@web3modal/standalone'
 import { useEffect, useState } from 'react'
 import { getProjectId } from '../utilities/EnvUtil'
 

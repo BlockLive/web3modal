@@ -1,4 +1,4 @@
-import type { InstallConnectorData, Listing, MobileWallet } from '@web3modal/core'
+import type { InstallConnectorData, Listing, MobileWallet } from '@spatializes/core'
 import {
   ClientCtrl,
   CoreUtil,
@@ -6,7 +6,7 @@ import {
   OptionsCtrl,
   RouterCtrl,
   ToastCtrl
-} from '@web3modal/core'
+} from '@spatializes/core'
 import { html, LitElement } from 'lit'
 import { customElement, state } from 'lit/decorators.js'
 import { classMap } from 'lit/directives/class-map.js'

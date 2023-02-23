@@ -6,7 +6,7 @@ import {
   ModalCtrl,
   OptionsCtrl,
   ToastCtrl
-} from '@web3modal/core'
+} from '@spatializes/core'
 import type { LitElement } from 'lit'
 import { ChainPresets } from '../presets/ChainPresets'
 import { EthereumPresets, InjectedId } from '../presets/EthereumPresets'

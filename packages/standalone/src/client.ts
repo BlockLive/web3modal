@@ -1,5 +1,5 @@
-import type { ConfigCtrlState } from '@web3modal/core'
-import { ConfigCtrl, ModalCtrl, OptionsCtrl } from '@web3modal/core'
+import type { ConfigCtrlState } from '@spatializes/core'
+import { ConfigCtrl, ModalCtrl, OptionsCtrl } from '@spatializes/core'
 
 /**
  * Types
@@ -19,7 +19,7 @@ export class Web3Modal {
 
   private async initUi() {
     if (typeof window !== 'undefined') {
-      await import('@web3modal/ui')
+      await import('@spatializes/ui')
       const modal = document.createElement('w3m-modal')
       document.body.insertAdjacentElement('beforeend', modal)
       OptionsCtrl.setIsUiLoaded(true)

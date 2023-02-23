@@ -1,4 +1,4 @@
-import type { RouterView } from '@web3modal/core';
+import type { RouterView } from '@spatializes/core';
 import { LitElement } from 'lit';
 export declare class W3mModalRouter extends LitElement {
     static styles: any[];

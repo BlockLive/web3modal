@@ -1,4 +1,4 @@
-import type { Chain, EthereumClient } from '@web3modal/ethereum';
+import type { Chain, EthereumClient } from '@spatializes/ethereum';
 export interface MobileWallet {
     id: string;
     name: string;

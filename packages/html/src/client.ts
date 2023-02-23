@@ -1,6 +1,6 @@
-import type { ConfigCtrlState } from '@web3modal/core'
-import { ClientCtrl, ConfigCtrl, ModalCtrl, OptionsCtrl } from '@web3modal/core'
-import type { EthereumClient } from '@web3modal/ethereum'
+import type { ConfigCtrlState } from '@spatializes/core'
+import { ClientCtrl, ConfigCtrl, ModalCtrl, OptionsCtrl } from '@spatializes/core'
+import type { EthereumClient } from '@spatializes/ethereum'
 
 /**
  * Types
@@ -22,7 +22,7 @@ export class Web3Modal {
 
   private async initUi() {
     if (typeof window !== 'undefined') {
-      await import('@web3modal/ui')
+      await import('@spatializes/ui')
       const modal = document.createElement('w3m-modal')
       document.body.insertAdjacentElement('beforeend', modal)
       OptionsCtrl.setIsUiLoaded(true)

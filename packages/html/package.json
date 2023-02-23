@@ -16,11 +16,11 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@web3modal/ethereum": "2.1.1"
+    "@spatializes/ethereum": "2.1.1"
   },
   "dependencies": {
-    "@web3modal/core": "2.1.1",
-    "@web3modal/ui": "2.1.1"
+    "@spatializes/core": "2.1.1",
+    "@spatializes/ui": "2.1.1"
   },
   "keywords": [
     "web3",

@@ -1,4 +1,4 @@
-import { ClientCtrl, ConfigCtrl, ModalCtrl, OptionsCtrl } from '@web3modal/core'
+import { ClientCtrl, ConfigCtrl, ModalCtrl, OptionsCtrl } from '@spatializes/core'
 import { html, LitElement } from 'lit'
 import { customElement, property, state } from 'lit/decorators.js'
 import { SvgUtil } from '../../utils/SvgUtil'

@@ -298,7 +298,6 @@ export class W3mModal extends LitElement {
         <div class="w3m-container" tabindex="0">
           ${this.open
             ? html`
-                <w3m-modal-backcard></w3m-modal-backcard>
                 <div class="w3m-card">
                   <w3m-modal-router></w3m-modal-router>
                   <w3m-modal-toast></w3m-modal-toast>

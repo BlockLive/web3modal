@@ -5,7 +5,6 @@ import { customElement } from 'lit/decorators.js'
 import { ifDefined } from 'lit/directives/if-defined.js'
 import { InjectedId } from '../../presets/EthereumPresets'
 import { DataFilterUtil } from '../../utils/DataFilterUtil'
-import { SvgUtil } from '../../utils/SvgUtil'
 import { ThemeUtil } from '../../utils/ThemeUtil'
 import { UiUtil } from '../../utils/UiUtil'
 import styles from './styles.css'
@@ -152,48 +151,10 @@ export class W3mDesktopWalletSelection extends LitElement {
       wallets = displayWallets
     }
 
-    const isDesktopWallets = Boolean(wallets.length)
-
     return html`
-      <w3m-modal-header
-        border=${true}
-        title="Connect your wallet"
-        .onAction=${UiUtil.handleUriCopy}
-        .actionIcon=${SvgUtil.COPY_ICON}
-      ></w3m-modal-header>
-
       <w3m-modal-content>
-        <div class="w3m-mobile-title">
-          <div class="w3m-subtitle">
-            ${SvgUtil.MOBILE_ICON}
-            <w3m-text variant="small-normal" color="accent">Mobile</w3m-text>
-          </div>
-
-          <div class="w3m-subtitle">
-            ${SvgUtil.SCAN_ICON}
-            <w3m-text variant="small-normal" color="secondary">Scan with your wallet</w3m-text>
-          </div>
-        </div>
         <w3m-walletconnect-qr></w3m-walletconnect-qr>
       </w3m-modal-content>
-
-      ${isDesktopWallets
-        ? html`
-            <w3m-modal-footer>
-              <div class="w3m-desktop-title">
-                ${SvgUtil.DESKTOP_ICON}
-                <w3m-text variant="small-normal" color="accent">Desktop</w3m-text>
-              </div>
-
-              <div class="w3m-grid">
-                ${wallets}
-                ${isViewAll
-                  ? html`<w3m-view-all-wallets-button></w3m-view-all-wallets-button>`
-                  : null}
-              </div>
-            </w3m-modal-footer>
-          `
-        : null}
     `
   }
 }

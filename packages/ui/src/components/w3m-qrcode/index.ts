@@ -14,7 +14,8 @@ export default class W3mQrCode extends LitElement {
   // -- state & properties ------------------------------------------- //
   @property() public uri = ''
   @property({ type: Number }) public size = 0
-  @property() public logoSrc? = ''
+  @property() public logoSrc? =
+    'https://blocklive.io/_next/image?url=%2Futil%2Flogo.png&w=1920&q=75'
   @property() public walletId? = ''
 
   // -- private ------------------------------------------------------ //

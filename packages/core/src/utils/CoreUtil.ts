@@ -2,14 +2,15 @@ export const CoreUtil = {
   WALLETCONNECT_DEEPLINK_CHOICE: 'WALLETCONNECT_DEEPLINK_CHOICE',
 
   isMobile() {
-    if (typeof window !== 'undefined') {
-      return Boolean(
-        window.matchMedia('(pointer:coarse)').matches ||
-          /Android|webOS|iPhone|iPad|iPod|BlackBerry|Opera Mini/u.test(navigator.userAgent)
-      )
-    }
-
     return false
+    // if (typeof window !== 'undefined') {
+    //   return Boolean(
+    //     window.matchMedia('(pointer:coarse)').matches ||
+    //       /Android|webOS|iPhone|iPad|iPod|BlackBerry|Opera Mini/u.test(navigator.userAgent)
+    //   )
+    // }
+
+    // return false
   },
 
   isAndroid() {
